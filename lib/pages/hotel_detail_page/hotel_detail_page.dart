@@ -60,7 +60,7 @@ class HotelDetailPage extends StatelessWidget {
           ...hotel.rooms
               .map((room) => InfoRow(
                     label: 'Room',
-                    value: room.image, 
+                    value: room.type,
                   ))
               .toList(),
           const Divider(),
